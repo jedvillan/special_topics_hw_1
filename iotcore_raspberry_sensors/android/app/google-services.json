@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "580557250012",
+    "firebase_url": "https://specialtopics-290508.firebaseio.com",
+    "project_id": "specialtopics-290508",
+    "storage_bucket": "specialtopics-290508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580557250012:android:82aeb3f92c57651db68319",
+        "android_client_info": {
+          "package_name": "com.example.iotcore_raspberry_sensors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580557250012-q6kacujpem5t6jnpg8b0g6rgb920t2ie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc1JhWuHQ8kly1JvqeV5AKRt25f5iokuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580557250012-q6kacujpem5t6jnpg8b0g6rgb920t2ie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
