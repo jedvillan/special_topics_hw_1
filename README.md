@@ -6,7 +6,7 @@ This project demonstrates a simple mobile application communicating with an iot 
 1. Send command to IoT device 
 1. Get real-time data and display in the graph as the the IoT device publishes
 
-### Components
+### Required Components
 1. Android Mobile App (Flutter) [/iotcore_raspberry_sensors]
 1. IoT device (Raspberry Pi 4) [/mqtt_raspberry_pi]
 1. Google Cloud Backend/Services (Firebase, Firestore, Pub/Sub, Functions, IoT Core) [/functions/save_to_firestore]
