@@ -23,6 +23,11 @@ This project demonstrates a simple mobile application communicating with an iot 
     1. save_data_to_firestore - Subscribed to PubSub to listen for new messages from IoT device. When a new message arrives, this will save the data to Firestore.
     1. get_all_documents - The mobile app will make an HTTP request to this function to get all the documents from the Firestore collection where the data is stored.
     1. force_iot_publish_now - The mobile app will make an HTTP request to this function to force the IoT device publish data immediately instead of waiting for the 10 seconds interval it is set to do.
+1. On the IoT get the sample NodeJS example from Google Firebase for MQTT
+1. Try the example and modify as needed. Provide the necessary parameters to connect the server to your Firebase project. 
+1. Test that it published to your Pub/Sub topic.
+1. Test the save_data_to_firestore function by checking if data is being populated in Firestore as data is published by the IoT device.
+1. Test the get_all_documents and force_iot_publish_now functions from the mobile device. Each should send an HTTP request and should get a status code back.
 
 ### References
 1. https://firebase.google.com/docs/flutter/setup?platform=android
