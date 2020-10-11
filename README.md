@@ -19,7 +19,7 @@ This project demonstrates a simple mobile application communicating with an iot 
 1. Create a Pub/Sub topic
 1. Register IoT device to IoT Core
 1. Start a Google Functions project - I used NodeJS to write my functions
-   * Functions necessary
+    #### Functions necessary
     1. save_data_to_firestore - Subscribed to PubSub to listen for new messages from IoT device. When a new message arrives, this will save the data to Firestore.
     1. get_all_documents - The mobile app will make an HTTP request to this function to get all the documents from the Firestore collection where the data is stored.
     1. force_iot_publish_now - The mobile app will make an HTTP request to this function to force the IoT device publish data immediately instead of waiting for the 10 seconds interval it is set to do.
